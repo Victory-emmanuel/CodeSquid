@@ -3,7 +3,8 @@ import { motion } from "framer-motion";
 import { Typography } from "@material-tailwind/react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import resume from "../assets/Victory-CV.pdf";
-import WavyDivider2 from "../Universal/WaveDivider2";
+
+import WaveDivider2 from "../Universal/WaveDivider2";
 
 export default function HeroSection() {
   const [text] = useTypewriter({
@@ -131,7 +132,7 @@ export default function HeroSection() {
           ></motion.div>
         </motion.div>
       </motion.section>
-      <WavyDivider2 />
+      <WaveDivider2 />
     </div>
   );
 }

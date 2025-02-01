@@ -267,7 +267,7 @@ export default function MyServiceSection() {
 
   return (
     <motion.section
-      className=" h-auto p-8 ml-0 md:ml-64 mt-16 bg-secondary"
+      className=" h-auto p-8 ml-0 md:ml-64 mt-16 bg-secondary ss:pt-[6rem] pt-[8rem]"
       initial="hidden"
       animate="visible"
       variants={containerVariants}
@@ -282,7 +282,7 @@ export default function MyServiceSection() {
       >
         <Typography
           variant="h2"
-          className="mb-4 ss:text-3xl xx:text-2xl md:text-start text-center text-primary"
+          className="mb-4 mt-10 ss:text-3xl xx:text-2xl md:text-start text-center text-primary"
         >
           What <span className="text-accent">I</span> Offer
         </Typography>
