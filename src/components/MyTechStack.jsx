@@ -4,7 +4,7 @@ import { Typography, Card, CardBody } from "@material-tailwind/react";
 import { FaReact, FaNodeJs, FaFigma } from "react-icons/fa";
 import { SiTailwindcss, SiCanva } from "react-icons/si";
 import { IoLogoFirebase } from "react-icons/io5";
-import WaveDivider2 from "../Universal/WaveDivider2";
+
 const TechIcon = ({ Icon, name, color }) => (
   <motion.div
     whileHover={{ scale: 1.1 }}
@@ -90,7 +90,7 @@ export default function MyTechStack() {
         <TechStack title="Backend" icons={backendIcons} />
         <TechStack title="UI/UX" icons={uiUxIcons} />
       </motion.div>
-      <WaveDivider2 />
+
     </motion.section>
   );
 }
